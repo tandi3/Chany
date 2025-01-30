@@ -1,0 +1,167 @@
+/* General Navigation Styles */
+nav {
+    width: 100vw;
+    height: 15vh;
+    background-color: hsl(0, 1%, 25%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav .logo img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.nav .nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .nav-links ul li {
+    display: inline;
+}
+
+.nav .nav-links ul li a {
+    text-decoration: none;
+    color: #bb3131;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav .nav-links ul li a:hover {
+    color: #ee0e0e;
+}
+
+/* Banner Section */
+.banner {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0e0d0d;
+}
+
+.banner .info-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #0e0d0d;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: #441111;
+    box-shadow: 0 2px 5px rgba(8, 5, 5, 0.1);
+    border-radius: 8px;
+}
+
+.h1, h2, h3 {
+    text-align: center;
+    color: #030303;
+}
+
+/* Upload Section */
+#upload-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#uploadForm {
+    display: inline-block;
+    text-align: left;
+}
+
+#uploadForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#uploadForm input {
+    margin-bottom: 10px;
+}
+
+#uploadForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#uploadForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Gallery Section */
+#galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#galleryContainer img, #galleryContainer video {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
